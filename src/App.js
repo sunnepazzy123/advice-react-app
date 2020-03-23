@@ -33,6 +33,7 @@ class App extends React.Component{
         return(
          <div className="app">
         <div className="card">
+          <h2 className="head_logo">WireDevTeam App</h2>
           <h1 className="heading">{this.state.advice}</h1>
           <button className="button" onClick={this.fetchAdvice}>
             <span>GIVE ME ADVICE!</span>
